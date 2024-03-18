@@ -98,6 +98,7 @@ while running:
         show_text("Вы выиграли!", 300, 300)
     if flag_lose:
         show_text("Вы проиграли!", 300, 300)
+        show_text("Нажмите 'R' чтобы начать сначала", 200, 350)
 
     for i in enemy_rect:
         screen.blit(enemy_img, i)
